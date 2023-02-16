@@ -1,0 +1,248 @@
+body{
+    height: 200vh;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+.menuContainer{
+    /* border: solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    background-color: #003200;
+    /* font-family: Arial, Helvetica, sans-serif;; */
+}
+.logo{
+     /* border: solid magenta; */ 
+    width: 15%;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-right: solid white;
+}
+.menu{
+    /* border: solid blue; */
+    width: 55%;
+}
+.searchbar{
+    /* border: solid yellow; */
+    width: 25%;
+}
+.listLogin{
+    /* border: solid green; */
+    width: 10%;
+}
+.menulist{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin-top: 20px;
+}
+.menuItem{
+    display: inline;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+.menuItem:hover{
+    cursor: pointer;
+    border-bottom: solid white;
+}
+.searchInput{
+    width:90%;
+    height: 30px;
+    margin: 10px;
+    margin-top: 15px;
+}
+.listLogin{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+.login{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+.login:hover{
+    cursor: pointer;
+    border-bottom: solid white;
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 8px;
+}
+.listText{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+.listText:hover{
+    cursor: pointer;
+    border-bottom: solid white;
+    
+}
+.listIcon{
+    width: 25%;
+    margin-bottom: 10px;
+}
+.mainImage{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 50px;
+    height: 90vh;
+}
+.mainPara{
+    /* border: solid black; */
+    width: 40%;
+    position: absolute;
+    top: 60vh;
+    left: 50px;
+    background-color: white;
+    font-size: 1.5em;
+}
+footer{
+    display: grid;
+    /* margin-top: 100vh; */
+    background-color: #003200;
+}
+.mapfooter{
+    /* border: solid magenta; */
+    height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footerMenu{
+    height: 12vh;
+    background-color: #025c02;
+    color: white;
+}
+.map1{
+    width: 23%;
+    /* border: solid white; */
+    font-weight: bold;
+    padding: 2%;
+}
+.map2{
+    width: 23%;
+    /* border: solid white; */
+    font-weight: bold;
+    padding: 2%;
+}
+.map3{
+    width: 23%;
+    /* border: solid white; */
+    font-weight: bold;
+}
+.map4{
+    width: 23%;
+    /* border: solid white; */
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.map1title{
+    font-size: 1.5em;
+}
+.listMap1{
+    list-style: none;
+    padding-left: 0;
+   
+}
+.listMap1Item{
+    padding: 3px;
+    
+}
+.emailsign{
+    background-color: #003200;
+    color: white;
+    padding: 5%;
+    width: 60%;
+    border-color: white;
+    font-weight: bold;
+}
+.footMenuList{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.footmenuItem{
+    display: inline;
+    width: 7%;
+    font-size: .9em;
+}
+.longfootmenuItem{
+    width: 25%;
+    
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+    
+}
+.browsMenuItem{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.listgridContainer{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 25% 25% 25% 25%;
+
+}
+.mainContainer{
+    margin-top: 20vh;
+    /* border: solid magenta; */
+    display: flex;
+    height: 100vh;
+}
+.leftSide{
+    width: 40%;
+    margin: 7%;
+    /* border: solid black; */
+}
+.rightSide{
+    width: 60%;
+    /* border: solid green; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.itemImg{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+p,h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 2em;
+}
+p{
+    font-size: 1.5em;
+}
+.Itemtxt{
+    margin: 3%;
+    font-size: 1.3em;
+    margin-left: 10%;
+    font-weight: bold;
+    color: rgb(94, 93, 93);
+}
+.Itemtxt:hover{
+    color: #003200;
+    cursor: pointer;
+    text-decoration:underline #003200;
+}
